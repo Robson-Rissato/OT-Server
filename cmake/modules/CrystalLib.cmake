@@ -87,7 +87,6 @@ target_link_libraries(${PROJECT_NAME}_lib
         unofficial::libmariadb
         protobuf
         Boost::locale
-        nlohmann_json::nlohmann_json
 )
 
 if(FEATURE_METRICS)
